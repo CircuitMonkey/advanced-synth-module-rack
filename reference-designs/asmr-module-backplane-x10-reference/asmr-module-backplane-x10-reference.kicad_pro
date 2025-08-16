@@ -191,6 +191,7 @@
         0.16,
         0.2,
         0.3,
+        0.56,
         0.6,
         1.0
       ],
@@ -474,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Styx-Synth-Backplane.kicad_pro",
+    "filename": "asmr-module-backplane-x10-reference.kicad_pro",
     "version": 3
   },
   "net_settings": {
