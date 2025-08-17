@@ -226,7 +226,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|774700|1562100|94d9e500-3e41-41f2-bcb9-44e7d963a8ee|00000000-0000-0000-0000-000000000000|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -453,7 +458,7 @@
     ]
   },
   "meta": {
-    "filename": "asmr-reference-pcb.kicad_pro",
+    "filename": "asmr-module-pcb-reference.kicad_pro",
     "version": 3
   },
   "net_settings": {
