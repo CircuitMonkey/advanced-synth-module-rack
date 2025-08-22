@@ -17,7 +17,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "J1"
+			(property "Reference" "J"
 				(at -36.83 1.27 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "~"
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -85,7 +85,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -33.02 8.89 270)
 					(length 3.81)
 					(name "+18-24V"
@@ -103,7 +103,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -33.02 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -122,7 +122,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -33.02 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -141,7 +141,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -33.02 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -160,7 +160,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 8.89 270)
 					(length 3.81)
 					(name "+15V"
@@ -178,7 +178,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -197,7 +197,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -216,7 +216,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -235,7 +235,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 -6.35 90)
 					(length 3.81)
 					(name "GND"
@@ -253,7 +253,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 -6.35 90)
 					(length 3.81)
 					(hide yes)
@@ -272,7 +272,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 -6.35 90)
 					(length 3.81)
 					(hide yes)
@@ -291,7 +291,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 -6.35 90)
 					(length 3.81)
 					(hide yes)
@@ -310,7 +310,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 -6.35 90)
 					(length 3.81)
 					(hide yes)
@@ -329,7 +329,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -30.48 -6.35 90)
 					(length 3.81)
 					(hide yes)
@@ -348,7 +348,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -27.94 8.89 270)
 					(length 3.81)
 					(name "-15V"
@@ -366,7 +366,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -27.94 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -385,7 +385,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -27.94 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -404,7 +404,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -27.94 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -423,7 +423,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -25.4 8.89 270)
 					(length 3.81)
 					(name "+5V"
@@ -441,7 +441,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -25.4 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -460,7 +460,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -25.4 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -479,7 +479,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -25.4 8.89 270)
 					(length 3.81)
 					(hide yes)
@@ -498,17 +498,17 @@
 						)
 					)
 				)
-				(pin passive clock
+				(pin output line
 					(at -20.32 8.89 270)
 					(length 3.81)
-					(name "ComA-SCK"
+					(name "MIDI_IN"
 						(effects
 							(font
 								(size 0.8 0.8)
 							)
 						)
 					)
-					(number "A13"
+					(number "B12"
 						(effects
 							(font
 								(size 1 1)
@@ -519,32 +519,14 @@
 				(pin passive line
 					(at -17.78 8.89 270)
 					(length 3.81)
-					(name "ComA-SDA"
+					(name "Slot"
 						(effects
 							(font
 								(size 0.8 0.8)
 							)
 						)
 					)
-					(number "B13"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive clock
-					(at -15.24 8.89 270)
-					(length 3.81)
-					(name "ComB-SCK"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "A14"
+					(number "A12"
 						(effects
 							(font
 								(size 1 1)
@@ -553,43 +535,7 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 8.89 270)
-					(length 3.81)
-					(name "ComB-SDA"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "B14"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 8.89 270)
-					(length 3.81)
-					(name "CV"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "A15"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -6.35 90)
+					(at -15.24 -6.35 90)
 					(length 3.81)
 					(name "SGND"
 						(effects
@@ -607,7 +553,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -6.35 90)
+					(at -15.24 -6.35 90)
 					(length 3.81)
 					(hide yes)
 					(name "SGND"
@@ -626,7 +572,79 @@
 					)
 				)
 				(pin passive line
+					(at -12.7 8.89 270)
+					(length 3.81)
+					(name "ComA-SDA"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "B13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive clock
+					(at -10.16 8.89 270)
+					(length 3.81)
+					(name "ComA-SCK"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "A13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 8.89 270)
+					(length 3.81)
+					(name "ComB-SDA"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "B14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive clock
 					(at -5.08 8.89 270)
+					(length 3.81)
+					(name "ComB-SCK"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "A14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 8.89 270)
 					(length 3.81)
 					(name "Gate"
 						(effects
@@ -643,35 +661,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 8.89 270)
-					(length 3.81)
-					(name "MIDI_IN"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 2.54 8.89 270)
 					(length 3.81)
-					(name "Slot"
+					(name "CV"
 						(effects
 							(font
 								(size 0.8 0.8)
 							)
 						)
 					)
-					(number "A12"
+					(number "A15"
 						(effects
 							(font
 								(size 1 1)
@@ -2358,12 +2358,12 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 1 1)
+						(size 0.8 0.8)
 					)
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(property "Footprint" "CM_Chip_Packages:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 				(at 30.353 -4.699 0)
 				(effects
 					(font
@@ -2639,6 +2639,82 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5119,7 +5195,7 @@
 	)
 	(text "Signal Path\nGround"
 		(exclude_from_sim no)
-		(at 58.42 180.848 0)
+		(at 50.8 180.848 0)
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -5574,7 +5650,7 @@
 		(uuid "22b8e832-5bdd-4a11-b7da-e35ea627024e")
 	)
 	(no_connect
-		(at 50.8 161.29)
+		(at 55.88 161.29)
 		(uuid "26e66278-6710-4002-b5da-ea840584a9aa")
 	)
 	(no_connect
@@ -7572,18 +7648,6 @@
 			(justify left bottom)
 		)
 		(uuid "a3f5399a-bef8-45e8-b106-be7c19ec5c2d")
-	)
-	(label "Vin"
-		(at 170.18 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad11588c-63db-4bc7-a9a1-c8d679c0b150")
 	)
 	(label "FB15P"
 		(at 212.09 39.37 0)
@@ -11656,7 +11720,7 @@
 	)
 	(symbol
 		(lib_id "CM_power:GNDS")
-		(at 58.42 176.53 0)
+		(at 50.8 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11664,7 +11728,7 @@
 		(dnp no)
 		(uuid "7afc6043-1224-44ff-a567-7bc1f15c1358")
 		(property "Reference" "#PWR012"
-			(at 58.42 182.88 0)
+			(at 50.8 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +11737,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 58.42 179.832 0)
+			(at 50.8 179.832 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11681,7 +11745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 176.53 0)
+			(at 50.8 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11690,7 +11754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 176.53 0)
+			(at 50.8 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11699,7 +11763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 58.42 176.53 0)
+			(at 50.8 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15042,7 +15106,7 @@
 		(dnp no)
 		(uuid "cf1e4101-4244-443c-8223-c78e332af366")
 		(property "Reference" "Q1"
-			(at 99.568 56.388 90)
+			(at 99.06 56.642 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15053,16 +15117,16 @@
 			)
 		)
 		(property "Value" "DMP3036SFV"
-			(at 101.854 63.246 90)
+			(at 100.838 63.246 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+		(property "Footprint" "CM_Chip_Packages:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 94.361 31.877 0)
 			(effects
 				(font
@@ -15121,6 +15185,18 @@
 		)
 		(pin "5"
 			(uuid "1b73bd89-2b5b-42e8-893e-11f0d2cac2fc")
+		)
+		(pin "6"
+			(uuid "9700a302-3526-440e-9744-4befd240d45d")
+		)
+		(pin "7"
+			(uuid "9d09c300-73ff-43ac-b188-c4fb46dc68d3")
+		)
+		(pin "8"
+			(uuid "64c1ed4d-b969-4b24-b6cc-42c24b1feb3f")
+		)
+		(pin "PAD"
+			(uuid "c1479345-3c18-487e-bc39-732493ab3e02")
 		)
 		(instances
 			(project ""
