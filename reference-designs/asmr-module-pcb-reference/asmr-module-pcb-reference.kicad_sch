@@ -498,17 +498,17 @@
 						)
 					)
 				)
-				(pin passive clock
+				(pin output line
 					(at -20.32 8.89 270)
 					(length 3.81)
-					(name "ComA-SCK"
+					(name "MIDI_IN"
 						(effects
 							(font
 								(size 0.8 0.8)
 							)
 						)
 					)
-					(number "A13"
+					(number "B12"
 						(effects
 							(font
 								(size 1 1)
@@ -519,32 +519,14 @@
 				(pin passive line
 					(at -17.78 8.89 270)
 					(length 3.81)
-					(name "ComA-SDA"
+					(name "Slot"
 						(effects
 							(font
 								(size 0.8 0.8)
 							)
 						)
 					)
-					(number "B13"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive clock
-					(at -15.24 8.89 270)
-					(length 3.81)
-					(name "ComB-SCK"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "A14"
+					(number "A12"
 						(effects
 							(font
 								(size 1 1)
@@ -553,43 +535,7 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 8.89 270)
-					(length 3.81)
-					(name "ComB-SDA"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "B14"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 8.89 270)
-					(length 3.81)
-					(name "CV"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "A15"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -6.35 90)
+					(at -15.24 -6.35 90)
 					(length 3.81)
 					(name "SGND"
 						(effects
@@ -607,7 +553,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -6.35 90)
+					(at -15.24 -6.35 90)
 					(length 3.81)
 					(hide yes)
 					(name "SGND"
@@ -626,7 +572,79 @@
 					)
 				)
 				(pin passive line
+					(at -12.7 8.89 270)
+					(length 3.81)
+					(name "ComA-SDA"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "B13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive clock
+					(at -10.16 8.89 270)
+					(length 3.81)
+					(name "ComA-SCK"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "A13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 8.89 270)
+					(length 3.81)
+					(name "ComB-SDA"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "B14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive clock
 					(at -5.08 8.89 270)
+					(length 3.81)
+					(name "ComB-SCK"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "A14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 8.89 270)
 					(length 3.81)
 					(name "Gate"
 						(effects
@@ -643,35 +661,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 8.89 270)
-					(length 3.81)
-					(name "MIDI_IN"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 2.54 8.89 270)
 					(length 3.81)
-					(name "Slot"
+					(name "CV"
 						(effects
 							(font
 								(size 0.8 0.8)
 							)
 						)
 					)
-					(number "A12"
+					(number "A15"
 						(effects
 							(font
 								(size 1 1)
@@ -2157,7 +2157,7 @@
 	)
 	(text "Signal Path\nGround"
 		(exclude_from_sim no)
-		(at 116.84 108.458 0)
+		(at 109.22 108.458 0)
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -2219,16 +2219,8 @@
 		(uuid "747f63c6-94cd-4a6c-822d-268dbb41f5a9")
 	)
 	(no_connect
-		(at 109.22 88.9)
-		(uuid "7df2763c-626e-4a9b-af10-d964f6358247")
-	)
-	(no_connect
 		(at 177.8 88.9)
 		(uuid "8292739a-9089-4607-a46f-a3add16982bd")
-	)
-	(no_connect
-		(at 106.68 88.9)
-		(uuid "935a1168-5244-4ff7-9683-00b423b84a51")
 	)
 	(no_connect
 		(at 172.72 88.9)
@@ -2237,6 +2229,10 @@
 	(no_connect
 		(at 154.94 88.9)
 		(uuid "99b1a649-c6af-40a2-8d6f-67bb2c9918b4")
+	)
+	(no_connect
+		(at 127 88.9)
+		(uuid "9b5b5c53-226d-4d3e-88ad-6a8f721f5579")
 	)
 	(no_connect
 		(at 193.04 88.9)
@@ -2265,6 +2261,10 @@
 	(no_connect
 		(at 104.14 88.9)
 		(uuid "c7e65d0e-37e6-41d3-b608-fd65c82f9520")
+	)
+	(no_connect
+		(at 114.3 88.9)
+		(uuid "d064358d-af4a-4758-b6ae-f1dd01fb2814")
 	)
 	(no_connect
 		(at 149.86 88.9)
@@ -2324,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 127 88.9)
+			(xy 106.68 87.63) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2471,7 @@
 	)
 	(symbol
 		(lib_id "CM_Device:R")
-		(at 127 85.09 0)
+		(at 106.68 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2480,7 +2480,7 @@
 		(fields_autoplaced yes)
 		(uuid "15b5dd35-e9ad-4b86-97e6-d470c12f2d98")
 		(property "Reference" "R1"
-			(at 128.875 85.09 90)
+			(at 108.555 85.09 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2491,7 +2491,7 @@
 			)
 		)
 		(property "Value" "560/1%"
-			(at 127 85.09 90)
+			(at 106.68 85.09 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2501,7 +2501,7 @@
 			)
 		)
 		(property "Footprint" "CM_Resistor_Capacitor:R_0603_1608Metric"
-			(at 127 85.09 0)
+			(at 106.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 85.09 0)
+			(at 106.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2519,7 @@
 			)
 		)
 		(property "Description" "Resistor, symbol"
-			(at 127 85.09 0)
+			(at 106.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2613,7 @@
 	)
 	(symbol
 		(lib_id "CM_power:GNDS")
-		(at 116.84 104.14 0)
+		(at 109.22 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2621,7 +2621,7 @@
 		(dnp no)
 		(uuid "7afc6043-1224-44ff-a567-7bc1f15c1358")
 		(property "Reference" "#PWR03"
-			(at 116.84 110.49 0)
+			(at 109.22 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2630,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 116.84 107.442 0)
+			(at 109.22 107.442 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2638,7 +2638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 104.14 0)
+			(at 109.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 104.14 0)
+			(at 109.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 116.84 104.14 0)
+			(at 109.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2748,7 @@
 	)
 	(symbol
 		(lib_id "CM_power:+5V")
-		(at 127 82.55 0)
+		(at 106.68 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2757,7 +2757,7 @@
 		(fields_autoplaced yes)
 		(uuid "c20b8ed1-6d6c-4da0-a4dd-92e18dfcb8d1")
 		(property "Reference" "#PWR06"
-			(at 127 86.36 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +2766,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 127 80.05 0)
+			(at 106.68 80.05 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2778,7 +2778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 82.55 0)
+			(at 106.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 82.55 0)
+			(at 106.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 127 82.55 0)
+			(at 106.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

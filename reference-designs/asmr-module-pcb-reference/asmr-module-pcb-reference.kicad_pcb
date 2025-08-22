@@ -174,7 +174,7 @@
 				)
 			)
 		)
-		(property "Description" "ASMR PCB Card Edge, 64-pins"
+		(property "Description" "ASMR PCB Edge, 64-pin"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
