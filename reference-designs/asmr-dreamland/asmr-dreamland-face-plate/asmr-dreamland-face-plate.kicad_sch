@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c2c2e577-abb1-43fa-8ce7-137d23581efb")
+	(paper "A4")
+	(title_block
+		(title "Single Module Face Plate Reference Design")
+		(date "2025-08-12")
+		(rev "A")
+		(company "by Circuit Monkey")
+		(comment 1 "ASMR :: Advanced Synth Module Rack")
+		(comment 2 "Face Plate for a AMSR Single Slot Module")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
