@@ -13,6 +13,32 @@
 		(comment 2 "Face Plate for a AMSR Single Slot Module")
 	)
 	(lib_symbols)
+	(text " - Large Hole, 9mm.  Pots on PCB, Model RV111. Tayda: A-5538 (or similar)\n - Med Hole, 8mm. LED Holder, for 5mm LED. Tayda: A-366\n - Small Hole, 6mm.  TRS Jack, 3.5mm.  Tayda: A-2585, A-4338, A-4317"
+		(exclude_from_sim no)
+		(at 55.118 52.832 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "44a3ec7d-a9ae-48fd-ba54-77eddba28b89")
+	)
+	(text "For your consideration:"
+		(exclude_from_sim no)
+		(at 51.054 51.054 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f322cb03-d074-40ea-8a92-6cd8869ff845")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
