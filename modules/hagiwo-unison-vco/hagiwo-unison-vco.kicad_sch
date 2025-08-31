@@ -1402,6 +1402,453 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CM_Device:DiodeArray_2ch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D1213A"
+				(at -3.6183 2.9214 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.6 0.6)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CM_Chip_Packages:SOT-25"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/D1213A-02SM.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVD Diode array in a SOT25 package."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Diodes, Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "D1213A-02SM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DiodeArray_2ch_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.33)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -3.125 1.75)
+					(end -1.875 1.5001)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.125 -0.5001)
+					(end -1.875 -0.75)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.5 2.125) (xy -2.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.5 1.625) (xy -3.125 0.625) (xy -1.875 0.625) (xy -2.5 1.625)
+					)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.5 -0.625) (xy -3.125 -1.625) (xy -1.875 -1.625) (xy -2.5 -0.625)
+					)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.7554 -0.0023) (xy -0.5054 0.2477) (xy 0.5 0.25) (xy 0.75 0.5)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.25) (xy -0.625 -0.75) (xy 0.625 -0.75) (xy 0 0.25)
+					)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.875 1.75)
+					(end 3.125 1.5001)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.875 -0.5)
+					(end 3.125 -0.7499)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 2.125) (xy -2.5 2.125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 2.125) (xy 2.5 -2) (xy -2.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 1.625) (xy 1.875 0.625) (xy 3.125 0.625) (xy 2.5 1.625)
+					)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -0.625) (xy 1.875 -1.625) (xy 3.125 -1.625) (xy 2.5 -0.625)
+					)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DiodeArray_2ch_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.5 0)
+					(radius 0.24)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2.125)
+					(radius 0.24)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2)
+					(radius 0.24)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.5 0)
+					(radius 0.24)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -2.1897 -0.0003 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+						(justify left)
+					)
+				)
+				(text "Vn"
+					(at 0.1418 -3.4864 0)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Vp"
+					(at 0.3318 3.4186 0)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+						(justify left top)
+					)
+				)
+				(text "2"
+					(at 2.1568 0.0056 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+						(justify right)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "CH1"
+						(effects
+							(font
+								(size 0.1 0.1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "Vp"
+						(effects
+							(font
+								(size 0.1 0.1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "Vn"
+						(effects
+							(font
+								(size 0.1 0.1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "CH2"
+						(effects
+							(font
+								(size 0.1 0.1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 0.1 0.1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CM_Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3917,156 +4364,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT43W-V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT43W-V"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT43W-V_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT43W-V_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -4469,22 +4766,10 @@
 		(uuid "b685a819-bc16-4d57-a60a-1d1494b97a3a")
 	)
 	(junction
-		(at 146.05 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c781f88c-4a41-407c-99cd-f55baea0a5a5")
-	)
-	(junction
 		(at 58.42 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbc1cca3-3e8d-4f55-8de9-69c2a6600258")
-	)
-	(junction
-		(at 219.71 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd95c012-3c91-45a1-9103-d47055792804")
 	)
 	(junction
 		(at 189.23 46.99)
@@ -4836,16 +5121,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 156.21 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca8f0c1-61ea-4eba-ae0e-f2e3e894466d")
-	)
-	(wire
-		(pts
 			(xy 171.45 55.88) (xy 177.8 55.88)
 		)
 		(stroke
@@ -5006,7 +5281,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 82.55) (xy 146.05 82.55)
+			(xy 135.89 82.55) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5043,16 +5318,6 @@
 			(type default)
 		)
 		(uuid "612d668a-bd2e-4b8f-9ec2-a759a3a7b2e6")
-	)
-	(wire
-		(pts
-			(xy 215.9 44.45) (xy 219.71 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64ba4f7b-1ed0-44e9-9bba-9eadec151037")
 	)
 	(wire
 		(pts
@@ -5186,7 +5451,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 44.45) (xy 229.87 44.45)
+			(xy 215.9 44.45) (xy 229.87 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5857,6 +6122,30 @@
 			)
 		)
 	)
+	(global_label "OSC2_VOL"
+		(shape input)
+		(at 191.77 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7ba47e6d-ca4e-46f9-9a39-0e6f66e4f611")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.9238 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OSC2_F"
 		(shape input)
 		(at 64.77 41.91 0)
@@ -6077,6 +6366,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V-OCT"
+		(shape input)
+		(at 179.07 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "fc8ac767-98c7-4fda-8655-8ef3b07d9d5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.815 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6512,6 +6823,107 @@
 		)
 	)
 	(symbol
+		(lib_id "CM_Device:DiodeArray_2ch")
+		(at 185.42 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "167e0fe0-a8e5-4c34-8d39-4a7fdfcae6cc")
+		(property "Reference" "D5"
+			(at 186.69 147.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D1213A"
+			(at 181.8017 149.4786 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM_Chip_Packages:SOT-25"
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/D1213A-02SM.pdf"
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVD Diode array in a SOT25 package."
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Diodes, Inc."
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "D1213A-02SM"
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9a6079ca-458f-4346-8b61-cc44f652821a")
+		)
+		(pin "2"
+			(uuid "3592da1d-f239-43ae-a1f6-1cb7defa75fd")
+		)
+		(pin "3"
+			(uuid "c71bcad6-2a17-4854-8f63-24251b3ca79d")
+		)
+		(pin "4"
+			(uuid "230af10f-e41d-4d06-a3ff-ed3611a39234")
+		)
+		(pin "1"
+			(uuid "13a75aa0-a0de-4062-bb19-fe11a3fa7acf")
+		)
+		(instances
+			(project ""
+				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CM_power:GNDS")
 		(at 156.21 90.17 0)
 		(unit 1)
@@ -6647,79 +7059,6 @@
 			(project ""
 				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT43W-V")
-		(at 146.05 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1895da00-0f22-45f3-8bf9-644435b4df15")
-		(property "Reference" "D3"
-			(at 147.828 77.216 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT43W-V"
-			(at 148.082 79.248 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 141.605 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 146.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
-			(at 146.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3ff8fe5-f6f4-41cc-b73f-0f12c9a33c7c")
-		)
-		(pin "2"
-			(uuid "a2e03ea4-1eae-47eb-8e77-85219dd8d6cd")
-		)
-		(instances
-			(project "hagiwo-unison-vco"
-				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8280,6 +8619,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 185.42 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52d9d69f-7afe-410e-84de-b547653d3c71")
+		(property "Reference" "#PWR051"
+			(at 185.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.42 142.494 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7f20cb3-1a2f-46b7-91ce-9a30f5c68875")
+		)
+		(instances
+			(project "hagiwo-unison-vco"
+				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 118.11 82.55 0)
 		(mirror y)
@@ -8479,74 +8886,6 @@
 				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
 					(reference "U2")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CM_power:GNDS")
-		(at 146.05 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b26dc87-0c3d-46ac-8b6c-eb5c581153d5")
-		(property "Reference" "#PWR041"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 144.272 92.964 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.16)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 146.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b42c7f9-2697-44e5-a38f-1f96911be816")
-		)
-		(instances
-			(project "hagiwo-unison-vco"
-				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
-					(reference "#PWR041")
-					(unit 1)
 				)
 			)
 		)
@@ -10012,16 +10351,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 219.71 36.83 0)
+		(lib_id "CM_power:GND_CH")
+		(at 185.42 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7e532e09-1a4d-45bf-b190-1eb908b7305f")
-		(property "Reference" "#PWR035"
-			(at 219.71 40.64 0)
+		(fields_autoplaced yes)
+		(uuid "7df04ae8-104b-4aa6-8d5f-af4a02a8d4af")
+		(property "Reference" "#PWR052"
+			(at 185.42 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,19 +10369,18 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 219.71 33.274 0)
+		(property "Value" "GND_CH"
+			(at 185.42 160.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
+					(size 0.7 0.7)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 36.83 0)
+			(at 185.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,7 +10389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 36.83 0)
+			(at 185.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,8 +10397,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 219.71 36.83 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,12 +10407,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8372d527-f5d3-4b96-ab59-c1d18e1daff9")
+			(uuid "fc805ad1-3d5a-4f6b-9882-3926158186e6")
 		)
 		(instances
 			(project "hagiwo-unison-vco"
 				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
-					(reference "#PWR035")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -12300,79 +12639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT43W-V")
-		(at 219.71 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf3d9c55-1972-44ce-86b8-698486c35570")
-		(property "Reference" "D1"
-			(at 221.488 39.116 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT43W-V"
-			(at 221.742 41.148 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 215.265 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 219.71 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
-			(at 219.71 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf0614ab-28c9-4c4a-9d27-4ac0bb11f70b")
-		)
-		(pin "2"
-			(uuid "3f4d1f32-70fb-4d4d-99d0-5bf0a235205d")
-		)
-		(instances
-			(project "hagiwo-unison-vco"
-				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CM_Device:R")
 		(at 182.88 46.99 90)
 		(unit 1)
@@ -12514,74 +12780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 146.05 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1d3bc8a-dcc4-4d6d-aa53-d3486dfa7a52")
-		(property "Reference" "#PWR040"
-			(at 146.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 146.05 71.374 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9148f5aa-971d-4057-859b-9a4fd9bedd05")
-		)
-		(instances
-			(project "hagiwo-unison-vco"
-				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CM_power:-15V")
 		(at 266.7 158.75 180)
 		(unit 1)
@@ -12712,74 +12910,6 @@
 			(project ""
 				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CM_power:GNDS")
-		(at 219.71 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca1f167c-fac3-471a-b894-a7ec8e5546ad")
-		(property "Reference" "#PWR033"
-			(at 219.71 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 217.932 54.864 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.16)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 219.71 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "407dbe8b-7c15-4906-9bd4-839ca188826e")
-		)
-		(instances
-			(project "hagiwo-unison-vco"
-				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13351,79 +13481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT43W-V")
-		(at 146.05 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9c4381f-aa3a-4b4c-b7ea-f348c5c202fb")
-		(property "Reference" "D4"
-			(at 147.828 84.836 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT43W-V"
-			(at 148.082 86.868 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 141.605 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bfb6d3b-8c1c-4ec9-a1af-6f1e15e068c2")
-		)
-		(pin "2"
-			(uuid "ebc3008b-e963-4dff-a3a7-2d1f9e061431")
-		)
-		(instances
-			(project "hagiwo-unison-vco"
-				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CM_power:GNDS")
 		(at 179.07 116.84 0)
 		(mirror y)
@@ -13559,79 +13616,6 @@
 			(project "hagiwo-unison-vco"
 				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT43W-V")
-		(at 219.71 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f647c83f-c502-45a7-9813-1246aadfb9bc")
-		(property "Reference" "D2"
-			(at 221.488 46.736 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT43W-V"
-			(at 221.742 48.768 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 215.265 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc015ada-a600-42d1-9706-156da955046a")
-		)
-		(pin "2"
-			(uuid "8bae6d8a-3903-4332-9284-3c048d432666")
-		)
-		(instances
-			(project ""
-				(path "/ae8512da-ad6d-46ff-b999-a2650397de76"
-					(reference "D2")
 					(unit 1)
 				)
 			)
