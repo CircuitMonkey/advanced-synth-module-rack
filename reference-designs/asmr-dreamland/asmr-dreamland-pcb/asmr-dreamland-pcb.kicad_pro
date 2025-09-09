@@ -469,6 +469,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -488,7 +489,7 @@
     ]
   },
   "meta": {
-    "filename": "asmr-play-pen-pcb.kicad_pro",
+    "filename": "asmr-dreamland-pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
