@@ -52,7 +52,40 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|108827444|111687339|ad28b8e0-ae0a-4f83-a81b-5037af44192d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|108827444|121687339|46ae4595-63ff-429f-8a1c-c95bfab25e19|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|108827444|131687339|a0c9b7c9-c62d-4f4e-8dd2-2c02609ba80e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|108827444|141687339|bc699c83-2871-4eae-8d51-8b05a762d789|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|115700000|117800000|46ae4595-63ff-429f-8a1c-c95bfab25e19|cd8b4673-bca6-48db-920b-2942d282825a",
+          ""
+        ],
+        [
+          "silk_overlap|117500000|107651457|6557acae-dbca-418a-9782-785509c86dc4|ad28b8e0-ae0a-4f83-a81b-5037af44192d",
+          ""
+        ],
+        [
+          "silk_overlap|117500000|127651457|12402827-ef64-478f-8d20-e189840553da|a0c9b7c9-c62d-4f4e-8dd2-2c02609ba80e",
+          ""
+        ],
+        [
+          "silk_overlap|120300000|137800000|04af87cf-ef41-4f28-8539-9498c3153c77|bc699c83-2871-4eae-8d51-8b05a762d789",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -440,6 +473,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -486,7 +520,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

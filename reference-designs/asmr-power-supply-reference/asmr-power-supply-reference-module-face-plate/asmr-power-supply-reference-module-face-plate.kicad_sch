@@ -5,12 +5,12 @@
 	(uuid "c2c2e577-abb1-43fa-8ce7-137d23581efb")
 	(paper "A4")
 	(title_block
-		(title "Single Module Face Plate Reference Design")
-		(date "2025-08-12")
+		(title "Power Supply Module Face Plate")
+		(date "2025-09-09")
 		(rev "A")
 		(company "by Circuit Monkey")
 		(comment 1 "ASMR :: Advanced Synth Module Rack")
-		(comment 2 "Face Plate for a AMSR Single Slot Module")
+		(comment 2 "Face Plate for AMSR Power Supply Module")
 	)
 	(lib_symbols
 		(symbol "CM_power:GND_CH"
