@@ -52,7 +52,56 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|100741372|89280966|577fda60-ee85-4aaf-89fb-bbb1f1bae16b|e71f71f9-cfd3-4079-8fe5-4954da923231",
+          ""
+        ],
+        [
+          "silk_edge_clearance|100792392|119262251|fc156cb7-4f11-4e8b-b6f6-93b7a4f901f4|3e442c45-601e-4ff6-9393-e29903264697",
+          ""
+        ],
+        [
+          "silk_edge_clearance|100792392|149262251|8e160ab7-85d7-486f-af00-82b28f942b8d|ffba52d1-fc02-4668-ba00-343c0e62adc7",
+          ""
+        ],
+        [
+          "silk_edge_clearance|100792392|179262251|e44eb7f8-047c-4005-811e-cac6e60c207c|15d2a208-94f5-4899-a8dc-160fd191d782",
+          ""
+        ],
+        [
+          "silk_edge_clearance|117573247|101847532|63e657aa-85c4-49ad-bbbf-e082a10566b6|cb9366dc-9609-42ba-a255-170724a9bb99",
+          ""
+        ],
+        [
+          "silk_edge_clearance|117573247|131847532|c3291f37-12fe-4a80-8af2-e46f91494274|9c8b1f8d-2cd1-4dc2-96fe-cccef616eaed",
+          ""
+        ],
+        [
+          "silk_edge_clearance|117573247|161847532|b7623707-ddd9-4e17-a32a-2fbb8120b4e7|4f898ceb-ce2d-42ad-bf02-6fcdba29897a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|117573247|191847532|ac185782-4d21-4845-876e-8021dd8bfc7b|e99d208e-5299-434c-b0ac-d4ff87d1c5ba",
+          ""
+        ],
+        [
+          "silk_edge_clearance|124050000|115000000|c2db8c5f-b55f-4b8d-961d-4f972595c286|fa2e1de9-90ba-43c5-86a6-26fa5e8eed17",
+          ""
+        ],
+        [
+          "silk_edge_clearance|124050000|145000000|32283893-ad54-4438-b43a-d71ea17ac408|8b460a96-60b0-4d3b-b71e-f661ebb0e76f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|124050000|175000000|8acc14dc-90f4-4c0f-b884-2d8fe1cda6a4|68236f48-829e-453a-9905-ce68e34f9c7f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|124050000|85000000|0c576e4b-6c5b-4658-83bd-89fac62bff46|55463196-8061-4786-940d-c71a8ef206d3",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -440,6 +489,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -450,7 +500,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "asmr-module-panel-reference.kicad_pro",
+    "filename": "asmr-dreamland-face-plate.kicad_pro",
     "version": 3
   },
   "net_settings": {

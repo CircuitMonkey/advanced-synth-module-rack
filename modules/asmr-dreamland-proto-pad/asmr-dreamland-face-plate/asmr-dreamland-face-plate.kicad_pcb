@@ -8,11 +8,11 @@
 	)
 	(paper "A4" portrait)
 	(title_block
-		(title "ASMR - Module Face Plate Reference")
-		(date "2025-08-12")
+		(title "Face Plate for ASMR DreamLand Prototyping Module")
+		(date "2025-09-09")
 		(rev "A")
 		(company "by Circuit Monkey")
-		(comment 1 "ASMR :: Advanced Synth Module Rack")
+		(comment 1 "for ASMR :: Advanced Synth Module Rack")
 	)
 	(layers
 		(0 "F.Cu" signal)
