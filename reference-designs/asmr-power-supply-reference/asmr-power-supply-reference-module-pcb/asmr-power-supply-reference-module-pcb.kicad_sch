@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Module PCB Reference Design")
-		(date "2025-08-12")
+		(date "2025-09-09")
 		(rev "A")
 		(company "by Circuit Monkey")
 		(comment 1 "for ASMR :: Advanced Synth Module Rack")
-		(comment 2 "Slot Card Example Power Supply PCB for Single ASMR module.")
+		(comment 2 "Example Power Supply Module PCB for Single ASMR module.")
 	)
 	(lib_symbols
 		(symbol "CM_Connector_Edge:ASMR-64-Edge"
