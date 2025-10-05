@@ -605,7 +605,7 @@
 				)
 			)
 		)
-		(property "Value" "177K"
+		(property "Value" "178K"
 			(at 0 0.2 90)
 			(layer "F.Fab")
 			(uuid "621bd5ca-2af5-4b70-85e6-31ce46df4f8f")
@@ -1069,7 +1069,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1365"
+		(property "Value" "MCP16365"
 			(at 0.001384 2.105502 90)
 			(layer "F.Fab")
 			(uuid "5c120455-deb2-4302-a4c1-1496cf11be21")
@@ -1106,7 +1106,7 @@
 				)
 			)
 		)
-		(property "MPN" "MCP1365"
+		(property "MPN" "MCP16365"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1912,7 +1912,7 @@
 				)
 			)
 		)
-		(property "Value" "500K"
+		(property "Value" "499K"
 			(at 0 0.2 90)
 			(layer "F.Fab")
 			(uuid "3067823c-bd65-4b6d-9d0d-b314ef05248a")
@@ -11977,7 +11977,7 @@
 				)
 			)
 		)
-		(property "Value" "500K"
+		(property "Value" "499K"
 			(at 0 0.2 90)
 			(layer "F.Fab")
 			(uuid "e15c3ea4-accb-456d-ab55-e5c33ef0b84c")
@@ -16732,7 +16732,7 @@
 				)
 			)
 		)
-		(property "Value" "500K"
+		(property "Value" "499K"
 			(at 0 0.2 90)
 			(layer "F.Fab")
 			(uuid "d5177620-d97a-4c4c-ac2b-88fcf2f87c2f")

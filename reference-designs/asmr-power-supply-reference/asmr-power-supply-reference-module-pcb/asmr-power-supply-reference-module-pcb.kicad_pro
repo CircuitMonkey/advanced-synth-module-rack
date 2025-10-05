@@ -335,96 +335,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|850900|1498600|fb137aff-73e2-4e41-ad9d-e26dae20e294|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "multiple_net_names|1905000|850900|a8b80ca8-c4a8-4d2b-afdf-9b012296c461|73a5a54a-3266-43d0-974a-615f5c5b57df|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "multiple_net_names|2120900|838200|a8b80ca8-c4a8-4d2b-afdf-9b012296c461|73a5a54a-3266-43d0-974a-615f5c5b57df|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "multiple_net_names|520700|1409700|2c32a6fb-cbe9-44a3-b917-f9d0670dd47a|1005b070-76c5-4d20-ab62-d86e6e4fb9f8|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "multiple_net_names|520700|1409700|64393789-7af7-41df-8587-9c72312f8d94|1005b070-76c5-4d20-ab62-d86e6e4fb9f8|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "multiple_net_names|546100|1562100|37f9f546-d0d0-48f1-ba24-55621671ecd3|457e3146-9e79-46fd-9452-d5e06d9c210c|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "multiple_net_names|546100|1562100|7ed1b096-15b7-4f93-9c5a-83ba958d7a5f|6778b11f-4e8e-4759-ad5c-5b856467f5aa|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_not_connected|406400|355600|3bcb680c-6d0e-44e3-8661-412d6f199790|00000000-0000-0000-0000-000000000000|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|",
-        ""
-      ],
-      [
-        "pin_not_connected|406400|381000|7f4c1c7c-e149-485f-a829-81705beeb88b|00000000-0000-0000-0000-000000000000|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|",
-        ""
-      ],
-      [
-        "pin_not_connected|482600|736600|3bcb680c-6d0e-44e3-8661-412d6f199790|00000000-0000-0000-0000-000000000000|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|",
-        ""
-      ],
-      [
-        "pin_not_connected|482600|762000|7f4c1c7c-e149-485f-a829-81705beeb88b|00000000-0000-0000-0000-000000000000|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|",
-        ""
-      ],
-      [
-        "pin_to_pin|1333500|596900|7652987e-dae8-4a37-a627-a34a207bc14d|1d0ea71c-3579-44f6-bbfa-4f28e685e911|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|2476500|1054100|a5806a7d-b15c-4acd-9bca-d5fe150e97ce|c4dc79e6-64f2-43ab-9aa6-7f1c6b2809c3|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|2476500|304800|3a46af94-110e-4bf2-a401-a43e5b4b11a2|457e3146-9e79-46fd-9452-d5e06d9c210c|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|2565400|863600|16b3ff6a-cbac-48d7-97c1-9db72b1d56f7|c97c46e7-db07-4ac3-85f1-cd62a8f033ce|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|355600|1765300|6778b11f-4e8e-4759-ad5c-5b856467f5aa|eca8c567-738d-48ac-ab7b-ab148bdd69b3|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|355600|1765300|8dc75372-d5db-4ef7-913b-089793218f18|eca8c567-738d-48ac-ab7b-ab148bdd69b3|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|355600|1765300|9833d0b7-f150-4ab8-b826-b1291d0af577|eca8c567-738d-48ac-ab7b-ab148bdd69b3|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|355600|1765300|9a85d420-d0b6-4141-83f8-6ced1d35702f|eca8c567-738d-48ac-ab7b-ab148bdd69b3|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|355600|1765300|e0a6f9c1-c9be-4296-8d30-32ed4da944f9|eca8c567-738d-48ac-ab7b-ab148bdd69b3|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "pin_to_pin|355600|1765300|e29773fd-a446-43b1-9a6b-1366db38d4c5|eca8c567-738d-48ac-ab7b-ab148bdd69b3|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28",
-        ""
-      ],
-      [
-        "power_pin_not_driven|177800|596900|4bbb74bc-75e8-4a81-8086-ac90759d3a77|00000000-0000-0000-0000-000000000000|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|/d1692c3f-f2c9-4c3c-9bc3-4f7078138d28|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -738,7 +649,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "asmr-power-supply-reference-module-pcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -808,12 +719,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
