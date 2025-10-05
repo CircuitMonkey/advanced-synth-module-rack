@@ -523,7 +523,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "asmr-power-supply-reference-module-face-plate.step",
       "svg": "",
       "vrml": ""
     },
