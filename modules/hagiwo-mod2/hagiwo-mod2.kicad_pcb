@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hagiwo MOD2 Module")
-		(date "2025-09-08")
-		(rev "A")
+		(date "2025-09-30")
+		(rev "B")
 		(company "by Circuit Monkey")
 		(comment 1 "for ASMR - Advanced Synth Module Rack")
 		(comment 2 "https://note.com/solder_state")
@@ -26671,6 +26671,18 @@
 				(size 1.2 1.2)
 				(thickness 0.2)
 			)
+		)
+	)
+	(gr_text "Re-evaluate zip-tie hole placement."
+		(at 173.4 58.7 0)
+		(layer "Cmts.User")
+		(uuid "697332e4-0e4b-4b1a-b4c1-d326ee7e7ffa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment

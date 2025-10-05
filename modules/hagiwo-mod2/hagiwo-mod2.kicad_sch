@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hagiwo Mod2 Module")
-		(date "2025-09-08")
-		(rev "A")
+		(date "2025-09-30")
+		(rev "B")
 		(company "by Circuit Monkey")
 		(comment 1 "for ASMR - Advanced Synth Module Rack")
 		(comment 2 "https://note.com/solder_state")
@@ -6831,6 +6831,17 @@
 		)
 		(uuid "7687fb29-f514-42fa-8ff7-cd89e6904fa6")
 	)
+	(text "Lengthen\nPackage \nPads"
+		(exclude_from_sim no)
+		(at 136.906 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "7b7f1a72-b08f-4398-a082-d639c1c1e9b0")
+	)
 	(text "Pot 3"
 		(exclude_from_sim no)
 		(at 31.75 52.578 0)
@@ -6854,6 +6865,28 @@
 			)
 		)
 		(uuid "89b0fb9d-f4ec-4a76-b577-d0bcd3fc0bfe")
+	)
+	(text "Strange place to put a TVS diode.\nRe-analyse where this might go.\nMove to TRS line?"
+		(exclude_from_sim no)
+		(at 137.414 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "9a334755-6543-439a-9576-86389f168b20")
+	)
+	(text "Maybe a GPIO FET controlled filter jumper here?"
+		(exclude_from_sim no)
+		(at 236.22 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ad2402dd-d9ae-40d7-9d29-eb8c5be0eff3")
 	)
 	(text "INPUT 1"
 		(exclude_from_sim no)
@@ -6936,12 +6969,6 @@
 		(uuid "0068f7c8-0fa1-42f2-b401-5507c99ebe0c")
 	)
 	(junction
-		(at 39.37 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01a2bcd7-7396-4e5d-a789-a2cf84bf3cf1")
-	)
-	(junction
 		(at 223.52 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6994,12 +7021,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3da0cf89-9e61-4d84-b652-f6a6e8a6ae98")
-	)
-	(junction
-		(at 43.18 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40ecc946-e77b-4357-b228-0431916e99bd")
 	)
 	(junction
 		(at 275.59 81.28)
@@ -7686,16 +7707,6 @@
 			(type default)
 		)
 		(uuid "286ebfa2-b00c-40f7-aa24-99ef41826582")
-	)
-	(wire
-		(pts
-			(xy 41.91 121.92) (xy 43.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298d9bab-1ba4-4bce-996b-619371d5e55b")
 	)
 	(wire
 		(pts
@@ -8750,16 +8761,6 @@
 			(type default)
 		)
 		(uuid "e2d57f75-1ab3-45c5-9c67-0a1ffef98092")
-	)
-	(wire
-		(pts
-			(xy 39.37 180.34) (xy 39.37 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39525fd-7f06-47a4-a0f9-3f6398161bda")
 	)
 	(wire
 		(pts
@@ -9995,7 +9996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/50V"
+		(property "Value" "10uF/25V"
 			(at 86.3587 166.5475 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10139,7 +10140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50V"
+		(property "Value" "1uF/25V"
 			(at 71.1187 165.2775 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11009,7 +11010,7 @@
 				)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "1uF"
 			(at 233.426 140.208 90)
 			(do_not_autoplace yes)
 			(effects
@@ -11085,7 +11086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/50V"
+		(property "Value" "10uF/25V"
 			(at 86.3587 158.9275 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13878,6 +13879,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "A-5538"
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Tayda"
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed43fb05-77b5-4b75-b351-21b1ee99a54f")
 		)
@@ -14823,7 +14842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50V"
+		(property "Value" "1uF/25V"
 			(at 96.5187 158.9275 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15184,7 +15203,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100K"
 			(at 238.76 143.51 90)
 			(do_not_autoplace yes)
 			(effects
@@ -16194,6 +16213,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "A-5533"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Tayda"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cbaa2506-acb3-4c80-a94a-ca1d612cd9cf")
 		)
@@ -16729,7 +16766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50V"
+		(property "Value" "1uF/25V"
 			(at 165.0987 176.7075 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17936,7 +17973,7 @@
 				)
 			)
 		)
-		(property "Value" "33.0K"
+		(property "Value" "45.0K"
 			(at 64.77 87.63 90)
 			(do_not_autoplace yes)
 			(effects
@@ -18606,7 +18643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50V"
+		(property "Value" "1uF/25V"
 			(at 96.5187 166.5475 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20234,7 +20271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50V"
+		(property "Value" "1uF/25V"
 			(at 165.0987 186.8675 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20524,7 +20561,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "33K"
 			(at 39.37 158.75 90)
 			(do_not_autoplace yes)
 			(effects
