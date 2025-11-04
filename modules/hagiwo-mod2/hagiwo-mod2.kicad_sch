@@ -13826,6 +13826,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_MountingPin")
 		(at 22.86 40.64 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13833,7 +13834,7 @@
 		(dnp no)
 		(uuid "5cbe657a-7217-4a14-95ca-bb44d4495c40")
 		(property "Reference" "RV2"
-			(at 25.908 37.338 0)
+			(at 25.4 37.084 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13844,7 +13845,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 22.86 40.894 90)
+			(at 22.86 40.386 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15678,6 +15679,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_MountingPin")
 		(at 22.86 21.59 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15685,7 +15687,7 @@
 		(dnp no)
 		(uuid "7cac8b3b-9900-4157-8569-afe0585041d8")
 		(property "Reference" "RV1"
-			(at 25.908 18.288 0)
+			(at 25.4 18.034 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15696,7 +15698,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 22.86 21.844 90)
+			(at 22.86 21.336 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16160,6 +16162,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_MountingPin")
 		(at 22.86 58.42 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16167,7 +16170,7 @@
 		(dnp no)
 		(uuid "83bae86d-a3a4-44ce-8e26-4a0091002270")
 		(property "Reference" "RV3"
-			(at 25.908 55.118 0)
+			(at 25.4 54.864 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16178,7 +16181,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 22.86 58.674 90)
+			(at 22.86 58.166 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
