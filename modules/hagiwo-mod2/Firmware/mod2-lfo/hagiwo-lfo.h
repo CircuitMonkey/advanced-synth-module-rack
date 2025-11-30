@@ -61,7 +61,7 @@ class HagiwoLFO {
 
     float freq;
     /* current waveform (0-5) and octave offset (0-3) */
-    volatile uint8_t waveSel = 0; // 0=Sine, 1=Tri, 2=Square  , 3=Saw, 4=FMx4, 5=FMx2
+    volatile uint8_t waveSel = 0; // 0=Sine, 1=Tri, 2=Square  , 3=Saw, 4=FMx4, 5=Random, 6=FMx2
     volatile uint8_t octShift = 0;  // to be removed.
 
   private:
@@ -105,6 +105,7 @@ class HagiwoLFO {
     volatile float phase = 0.0f;      // 0…TABLE_SIZE
     volatile float phaseStep = 0.0f;  // Δphase per ISR
     float sampleRate = 0.0f;          // ≈36.6 kHz
+    volatile int randomNote = 512;  // Used for random mode
 
     /* ============================ wavetable =============================== */
     float tableSin[TABLE_SIZE];

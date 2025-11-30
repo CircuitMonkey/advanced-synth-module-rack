@@ -107,6 +107,24 @@ const unsigned char PROGMEM fm2_bmp[] =
       0b00000000, 0b00100100, 0b10000000,
       0b00000000, 0b01000010, 0b11111100  };
 
+const unsigned char PROGMEM rnd_bmp[] = 
+    { 0b00000111, 0b11111111, 0b11100000,
+      0b00001111, 0b11111111, 0b11100000,
+      0b00001100, 0b00000000, 0b00110000,
+      0b00001100, 0b00000000, 0b00110000,
+      0b00001100, 0b11000000, 0b00110000,
+      0b00001100, 0b11000000, 0b00110000,
+      0b00001100, 0b00000000, 0b00110000,
+      0b00001100, 0b00011000, 0b00110000,
+      0b00001100, 0b00011000, 0b00110000,
+      0b00001100, 0b00000000, 0b00110000,
+      0b00001100, 0b00000011, 0b00110000,
+      0b00001100, 0b00000011, 0b00110000,
+      0b00001100, 0b00000000, 0b00110000,
+      0b00001100, 0b00000000, 0b00110000,
+      0b00001111, 0b11111111, 0b11110000,
+      0b00000111, 0b11111111, 0b11100000 };
+
 void oledUI_hagiwoSplash() {
   oled.display.setTextColor(SSD1306_WHITE);
 
@@ -153,6 +171,9 @@ void oledUI_freqDisplay(int waveSel, float freq) {
       break;
     case 4:
       oled.display.drawBitmap( 14, 8, fm4_bmp, 24, 16, 1);
+      break;
+    case 5:
+      oled.display.drawBitmap( 14, 8, rnd_bmp, 24, 16, 1);
       break;
     default:
       oled.display.drawBitmap( 14, 8, fm2_bmp, 24, 16, 1);

@@ -17,8 +17,9 @@
           1 – Triangle 
           2 – Square (PolyBLEP) 
           3 – Saw (PolyBLEP)
-          4 – Random
-          5 – Chunky Ramp
+          4 - FM x4
+          5 – Random
+          6 – FM x2
       • PolyBLEP anti-aliasing on every hard-edge waveform (Square, Saw)
       • Additional 1-pole RC low-pass filter softens residual PWM / alias noise
       • Coarse tuning via POT 2 (A1); negative-slope 1 V/Oct CV on A2
@@ -30,7 +31,7 @@
 
 
     --Pin assignments---
-      POT1     A0       Waveform select (Sin / Tri / Squ / Saw / FM-4× / FM-2×)
+      POT1     A0       Waveform select (Sin / Tri / Squ / Saw / FM-4× / Rand / FM-2×)
       POT2     A1       Coarse tune
       POT3     A2       Frequency
       IN1      GPIO7    N/A
@@ -142,7 +143,13 @@ void __isr HagiwoLFO::onPwmWrap() {
       break;
     }
 
-    /* ---- 5 : FM (modulator 2× carrier) --------------------------- */
+    /* ---- 5 : Random --------------------------------------------- */
+    case 5: {
+      sample = randomNote;
+      break;
+    }
+
+  /* ---- 6 : FM (modulator 2× carrier) --------------------------- */
     default:  {  // waveSel == 5 
       float tMod = fmodf(tNorm * 2.0f, 1.0f);
 
@@ -174,8 +181,10 @@ void __isr HagiwoLFO::onPwmWrap() {
 
   /* advance and wrap phase accumulator */
   phase += phaseStep;
-  if (phase >= TABLE_SIZE)
+  if (phase >= TABLE_SIZE) {
     phase -= TABLE_SIZE;
+    randomNote = random(1024);
+  }
 
   /* clear IRQ flag */
   pwm_clear_irq(sliceIRQ);
@@ -240,12 +249,13 @@ void HagiwoLFO::begin() {
 void HagiwoLFO::loop() {
   /* --- A0 : wave select thresholds ---------------------------------- */
   const int a0 = analogRead(A0);
-  if      (a0 <  32) waveSel = 0; // Sine
-  else if (a0 < 248) waveSel = 1; // Triangle
-  else if (a0 < 514) waveSel = 2; // Square
-  else if (a0 < 720) waveSel = 3; // Saw
-  else if (a0 < 926) waveSel = 4; // FM 4×
-  else                waveSel = 5;// FM 2×
+  if      (a0 <  140) waveSel = 0; // Sine
+  else if (a0 < 280) waveSel = 1; // Triangle
+  else if (a0 < 420) waveSel = 2; // Square
+  else if (a0 < 560) waveSel = 3; // Saw
+  else if (a0 < 680) waveSel = 4; // FM 4×
+  else if (a0 < 820) waveSel = 5; // Random
+  else                waveSel = 6;// FM 2×
 
   /* --- A1 : base frequency 320-410 Hz ------------------------------- */
   const float baseFreq =
